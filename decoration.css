@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(40, 149, 182);
+  color: white;
+}
+.pro {
+  width: 100%;
+  height: 400px;
+  background-color: aquamarine;
+  background-image: url(coding.jpg);
+
+  background-size: 100% 100%;
+  position: relative;
+}
+.circle {
+  height: 300px;
+  width: 300px;
+  background-color: gray;
+  background-image: url(dfdfd.jpeg);
+  background-size: 100% 100%;
+  position: absolute;
+  border-radius: 50%;
+  left: 200px;
+  bottom: -150px;
+  rotate: -10deg;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.heading h1 {
+  font-weight: lighter;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+.heading p {
+  font-family: sans-serif;
+}
+@media (max-width: 1300px) {
+  .circle {
+    left: 150px;
+  }
+}
+@media (max-width: 1150px) {
+  .circle {
+    width: 200px;
+    height: 200px;
+    bottom: -100px;
+  }
+  .pro {
+    height: 300px;
+  }
+}
+@media (max-width: 950px) {
+  .circle {
+    left: 70px;
+    height: 150px;
+    width: 150px;
+    bottom: -70px;
+  }
+  .heading h1 {
+    font-size: 2.5rem;
+    margin-left: 200px;
+  }
+  .heading p {
+    margin-left: 200px;
+  }
+}
+@media (max-width: 470px) {
+  .pro {
+    height: 200px;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    left: 20px;
+  }
+  .heading h1 {
+    margin-left: 100px;
+    font-size: 2rem;
+  }
+  .heading p {
+    margin-left: 100px;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 376px) {
+  .pro {
+    height: 150px;
+  }
+  .heading h1 {
+    font-size: 1.8rem;
+  }
+  .heading p {
+    font-size: 0.7rem;
+  }
+  .circle {
+    left: 10px;
+  }
+}
+.main {
+  margin-top: 100px;
+  height: 400px;
+  width: 300px;
+  padding: 50px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: sans-serif;
+}
+.left h1 {
+  margin-bottom: 20px;
+}
+.co {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+.envelop {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+.left button {
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.7s;
+}
+input {
+  padding: 10px;
+  background-color: rgb(71, 70, 70);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+}
+.logo {
+  font-size: 2.5rem;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.bi-twitter-x {
+  color: rgb(255, 248, 248);
+}
+.bi-twitter-x:hover {
+  color: rgb(0, 0, 0);
+}
+.bi-youtube:hover {
+  color: rgb(255, 0, 0);
+}
+.bi-whatsapp:hover {
+  color: rgb(3, 223, 22);
+}
+.left button:hover {
+  background-color: aqua;
+  scale: 1.05;
+}
+.left p {
+  transition: all 0.5s;
+}
+.left p:hover {
+  scale: 1.05;
+}
+.main {
+  display: flex;
+  gap: 70px;
+}
+.container {
+  display: flex;
+  gap: 50px;
+}
+.box {
+  height: 300px;
+  width: 250px;
+  font-family: sans-serif;
+  text-align: left;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  font-family: sans-serif;
+  background-color: rgb(16, 122, 122);
+  padding: 10px;
+  border-radius: 10px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+#b1 {
+  background-color: #f0908e;
+}
+#b2 {
+  background-color: #737b86;
+}
+.box p {
+  font-size: 1.2rem;
+}
+@media (max-width: 1290px) {
+  .container {
+    gap: 70px;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+  }
+  .box {
+    overflow: visible;
+  }
+  .main {
+    flex-direction: column;
+    width: 65%;
+  }
+}
+@media (max-width: 360px) {
+  .co p {
+    font-size: 1.1rem;
+  }
+  .envelop p {
+    font-size: 1.1rem;
+  }
+}
