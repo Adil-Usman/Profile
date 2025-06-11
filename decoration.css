@@ -133,6 +133,8 @@ body {
   border-radius: 10px;
   border: none;
   transition: all 0.7s;
+  background-color: #107a7a;
+  color: white;
 }
 input {
   padding: 10px;
@@ -162,6 +164,7 @@ input {
 .left button:hover {
   background-color: aqua;
   scale: 1.05;
+  color: black;
 }
 .left p {
   transition: all 0.5s;
@@ -190,6 +193,9 @@ input {
   background-color: rgb(16, 122, 122);
   padding: 10px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(65, 3, 46, 0.514) 0px -12px 30px, rgba(68, 2, 35, 0.541) 0px 4px 6px,
+    rgba(70, 2, 58, 0.562) 0px 12px 13px, rgba(73, 2, 55, 0.616) 0px -3px 5px;
 }
 .right {
   display: flex;
